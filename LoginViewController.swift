@@ -33,16 +33,9 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
         super.viewDidLoad()
         
         
-        //enterEmailTextField.delegate = self
-        //enterPasswordTextField.delegate = self
     }
     
-    /*func textFieldShouldReturn(_ textfield: UITextField) -> Bool {
-        self.enterEmailTextField.resignFirstResponder()
-        self.enterPasswordTextField.resignFirstResponder()
-        return true
     
-    }*/
     
     
     //The function below checks if the user has entered enough characters inside the text fields.  The text field changes background colour if the there isn't enough characters (Less than 5)
